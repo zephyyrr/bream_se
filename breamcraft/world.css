@@ -1,0 +1,29 @@
+#world {
+	background-image: url(green_world.jpg);
+	background-size: 100% 100%;
+	width: 2000px;
+	height: 2000px;
+}
+
+.unit {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	margin: -10px;
+	background-color: red;
+	background-size: contain;
+}
+
+.selected:after {
+	content: "";
+	display: block;
+	border: 3px #3f3 solid;
+	border-radius: 50%;
+	width: 150%;
+	height: 150%;
+	margin: -40%;
+}
+
+.hq {
+
+}
